@@ -1,33 +1,110 @@
-# Gradle files
-.gradle/
-build/
-
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Log/OS Files
-*.log
-
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.apk
-output.json
-
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
-
-# Keystore files
-*.jks
-*.keystore
-
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ucapan Selamat Hari Natal dari Michael untuk semua orang tersayang.">
+    <title>Selamat Hari Natal dari Michael</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #a92222, #ffdddd);
+            color: #fff;
+        }
+        header {
+            background-color: #b71c1c;
+            color: #fff;
+            padding: 20px 10px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            text-shadow: 2px 2px 5px #000;
+            animation: slide-in 2s ease-out;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            animation: fade-in 3s ease-out;
+        }
+        main {
+            text-align: center;
+            padding: 20px;
+        }
+        main h2 {
+            color: #ffeb3b;
+            text-shadow: 1px 1px 3px #000;
+            margin-bottom: 20px;
+        }
+        main p {
+            font-size: 1.2rem;
+            margin: 15px 0;
+            color: #ffcccc;
+        }
+        main ul {
+            list-style: none;
+            padding: 0;
+        }
+        main ul li {
+            font-size: 1.2rem;
+            margin: 10px 0;
+            color: #fff;
+        }
+        footer {
+            background-color: #b71c1c;
+            color: #fff;
+            text-align: center;
+            padding: 15px 10px;
+            margin-top: 20px;
+        }
+        .tree {
+            margin: 20px auto;
+            max-width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+        }
+        audio {
+            margin: 20px auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Selamat Hari Natal!</h1>
+        <p>Dari Michael, untuk Semua yang Tersayang</p>
+    </header>
+    <main>
+        <h2>Malam Natal yang Penuh Kedamaian</h2>
+        <p>
+            "Malam Natal adalah saat yang penuh dengan keajaiban, cinta, dan harapan.
+            Saya, Michael, mengucapkan Selamat Natal kepada Anda semua. Semoga hati kita
+            dipenuhi dengan kedamaian, keluarga kita dipenuhi dengan kehangatan, dan rumah kita dipenuhi dengan sukacita.
+        </p>
+        <p>
+            Terima kasih telah menjadi bagian dari perjalanan hidup saya. Mari kita rayakan hari ini
+            dengan kebahagiaan dan cinta tanpa batas."
+        </p>
+        <h3>Makna Natal yang Sederhana</h3>
+        <ul>
+            <li>🎄 Kasih sayang tanpa syarat</li>
+            <li>🎁 Kebersamaan dengan keluarga dan teman</li>
+            <li>✨ Harapan untuk masa depan yang lebih baik</li>
+        </ul>
+        <img class="tree" src="https://source.unsplash.com/300x400/?christmas,tree" alt="Pohon Natal">
+        <audio controls>
+            <source src="https://www.chosic.com/wp-content/uploads/2021/10/Jingle-Bells.mp3" type="audio/mpeg">
+            Browser Anda tidak mendukung audio tag.
+        </audio>
+    </main>
+    <footer>
+        <p>Semoga Natal ini membawa kedamaian bagi dunia dan kebahagiaan bagi kita semua. Selamat Natal dan Tahun Baru 2024!</p>
+    </footer>
+</body>
+</html>
